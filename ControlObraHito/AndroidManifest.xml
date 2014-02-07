@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.controlobrahito"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+    
+    
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/FondoNegroActionBar" >
+        
+                
+        <activity
+            android:name="com.controlobrahito.SaludoInicial"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.controlobrahito.MainPrincipal"
+            android:label="@string/app_name" >
+        </activity>        
+                
+        
+        <activity
+            android:name="clases_eventos.ClasMovimientoMateriales"
+            android:label="@string/title_activity_clas_movimiento_materiales" >
+        </activity>
+        
+        
+        <activity
+            android:name="clases_eventos.ClasInstalacionDeTuberia"
+            android:label="@string/title_activity_clas_instalacion_de_tuberia" >
+        </activity>
+        
+        
+        <activity
+            android:name="clases_eventos.ClasConcreto"
+            android:label="@string/title_activity_clas_concreto" >
+        </activity>
+        
+        
+        <activity
+            android:name="clases_eventos.ClasMaquinaria"  
+            android:label="@string/title_activity_clas_maquinaria" >
+        </activity>
+        
+        
+        <activity
+            android:name="clases_eventos.ClasRellenosObrasArte"  
+            android:label="@string/title_activity_clas_rellenos_obras_arte" >
+        </activity>
+        
+        
+        <activity
+            android:name="clases_eventos.ClasClimaYPersonalEnObra"
+            android:label="@string/title_activity_clas_clima_ypersonal_en_obra" >
+        </activity>
+        
+        <activity
+            android:name="camara.CapturarImagen"
+            android:label="Camara" >
+        </activity>
+        
+    </application>
+
+</manifest>

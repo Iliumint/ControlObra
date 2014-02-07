@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CONTROL EN OBRA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_clas_movimiento_materiales">MOVIMIENTO DE MATERIALES</string>
+    <string name="title_activity_clas_instalacion_de_tuberia">INSTALACIÓN DE TUBERIA</string>
+    <string name="title_activity_clas_concreto">CONCRETO</string>
+    <string name="title_activity_clas_maquinaria">MAQUINARIA</string>
+    <string name="title_activity_clas_rellenos_obras_arte">RELLENOS OBRAS DE ARTE</string>
+    <string name="title_activity_clas_clima_ypersonal_en_obra">CLIMA Y PERSONAL EN OBRA</string>
+    <string name="strReinstalar">Reinstalar Base de Datos</string>
+    
+    
+    <!-- String de la clase Movimiento de Materiales -->
+    <string name="strCodigoMaquinaria">Código de Maquinaria: </string>
+    <string name="strPlacas">"Placas: "</string>
+    <string name="strRecibo">"# Recibo: "</string>
+    <string name="strOrigen">"Origen: "</string>
+    <string name="strDestino">"Destino: "</string>
+    <string name="strTipodeMAterial">"Tipo de Material: "</string>
+    <string name="strVolumenE3Suelto">"Volumen E3 Suelto: "</string>
+    <string name="strAbscisaInicial">"Abscisa Inical: "</string>
+    <string name="strAbscisaFinal">"Abscisa Final: "</string>
+    <string name="strAncho">"Ancho: "</string>
+    <string name="strArea">"Area: "</string>
+    <string name="strEstadodeMaterialAlFinalizarJornada">"Estado del Material al Finalizar Jornada: "</string>
+    <string name="strObsercaiones">"Observaciones: "</string>
+    <string name="strBtnGuardar">Guardar y Enviar</string>
+    <string name="strHito">"Hito: "</string>
+    <string name="strSubcontratista">"Subcontratista: "</string>
+    <string name="strTipodeMaquina">"Tipo de Maquina: "</string>
+    
+    
+    <!-- String de la clase Instalacion de Tuberias -->
+    <string name="strDiametroTuberia">"Diametro de Tuberia Instalada: "</string>
+    <string name="strCantidadTuberia">"Cantidad de Tuberia: "</string>
+    <string name="strAbscisaEncole">"Abscisa Encole: "</string>
+    <string name="strAbscisaDescole">"Abscisa Descole: "</string>
+    <string name="strNObradeArte">"# de Obra de Arte: "</string>
+    <string name="strNTuberia">"# de Tuberias: "</string>
+    <string name="strPenditePorcent">"Pendiente %: "</string>
+    <string name="strNCeldas">"# de Celdas: "</string>
+    <string name="strEstadoTuberia">"Estado de la Tuberia: "</string>
+    
+    
+    <!-- String de la clase Maquinaria -->
+    <string name="strDescripcionMaquina">"Descripción de Maquina: "</string>
+    <string name="strCodigoMaquina">"Código de Maquina: "</string>
+    <string name="strNRecibo">"# de Recibo: "</string>
+    <string name="strUnidadDeMedida">"Unidad de Medida: "</string>
+    <string name="strCantidad">"Cantidad: "</string>
+    <string name="strAbscisaTrabajoInicial">"Abscisa de Trabajo Inicial: "</string>
+    <string name="strAbscisadeTrabajoFinal">"Abscisa de Trabajo Final: "</string>
+    <string name="strActividadRealizada">"Actividad Realizada: "</string>
+    <string name="strTipoConcreto">"Tipo de Concreto: "</string>
+    <string name="strCantidadConcreto">"Cantidad: "</string>
+    <string name="strNObreArteConcreto">"# Obra de Arte: "</string>
+    <string name="strElemento">"Elemento: "</string>
+    <string name="strAbscisa">Abscisa:</string>
+    <string name="strCantidadCementosBultos">"Cantidad de Cementos Bultos: "</string>
+    <string name="strCantidadArenaM3">Cantidad de Arena M3</string>
+    <string name="strCantidadTrituradoM3">"Cantidad de Triturado M3: "</string>
+    <string name="strNCilindrosPrueba"># Cilindros Prueba</string>
+    
+    
+    <!-- String de la clase Rellenos Obras -->
+    <string name="strTipoRelleno">"Tipo de Relleno: "</string>
+    <string name="strTipoMaterial">"Tipo de Material: "</string>
+    <string name="strNObraArte">"# Obra de Arte: "</string>
+    <string name="strSubcontratistaRellenos">"Subcontratista: "</string>
+    <string name="strAbscisaRelleno">"Abscisa: "</string>
+    <string name="strLongitud">"Longitud: "</string>
+    <string name="strAnchoRelleno">"Ancho: "</string>
+    <string name="strAlto">"Alto: "</string>
+    <string name="strVolumenAproximado">"Volumen Aproximado: "</string>
+    <string name="strNTomaDensidad">"# Toma de Densidad: "</string>
+    
+    
+    <!-- String de la clase Clima y Personal -->
+    <string name="strTemperaturaPromedio">"Temperatura Promedio: "</string>
+    <string name="strNHorasLLuvia">"# Horas de LLuvia en Jornada Laboral: "</string>
+    <string name="strEstadoTerreno">"Estado del Terreno: "</string>
+    <string name="strSubcontratistaClimaPerso">"Subcontratista: "</string>
+    <string name="strNPersonas">"# Personas: "</string>
+    <string name="strFrente">"Frente: "</string>
+    <string name="strNObraArteClima">"# Obra de Arte: "</string>
+    <string name="strElementoClima">"Elemento: "</string>
+    <string name="strAbscisaInicialClima">"Abscisa Inicial: "</string>
+    <string name="strAbscisaFinalClima">"Abscisa Final: "</string>
+    <string name="strHoraInicioLabores">"Hora Inicio de Labores: "</string>
+    <string name="strHoraFinalLbores">"Hora Final de Labores: "</string>
+    <string name="strObservacionesClima">"Observaciones: "</string>
+    
+    <!-- String de la camara -->
+    <string name="strCamara">"Camara"</string>
+    <string name="strTextoIntro">"Este Producto es para uso de GRODCO SA y Asociados"</string>
+    
+
+</resources>
