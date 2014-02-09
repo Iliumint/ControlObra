@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:layout_weight="0.5"
-                android:src="@drawable/maquinaria1" />
+                android:src="@drawable/movimiento_de_materiales1" />
 
             <ImageView
                 android:id="@+id/imgbtnInstalacionTuberia"

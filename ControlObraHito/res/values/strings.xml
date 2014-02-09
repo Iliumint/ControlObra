@@ -96,6 +96,7 @@
     <!-- String de la camara -->
     <string name="strCamara">"Camara"</string>
     <string name="strTextoIntro">"Este Producto es para uso de GRODCO SA y Asociados"</string>
+    <string name="strTextoPresentacion">DIvisión de Investigación en Tecnología</string>
     
 
 </resources>

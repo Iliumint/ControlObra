@@ -223,6 +223,7 @@ public final class R {
          */
         public static final int strTemperaturaPromedio=0x7f05003f;
         public static final int strTextoIntro=0x7f05004d;
+        public static final int strTextoPresentacion=0x7f05004e;
         public static final int strTipoConcreto=0x7f05002c;
         public static final int strTipoMaterial=0x7f050036;
         /**  String de la clase Rellenos Obras 
