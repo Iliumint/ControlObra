@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/agregarUsuario"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Agregar Usuario"/>
+    
+        <item
+        android:id="@+id/traerUsuarios"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="TraerUser"/>
+
+        <item
+        android:id="@+id/mensaje"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Mensajes loop"/>
+        
+        <item
+        android:id="@+id/estadoServidor"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Estado Servidor"/>
+        
+         <item
+        android:id="@+id/googleCharts"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Google Charts"/>
+         
+</menu>

@@ -6,8 +6,8 @@
         android:title="@string/strReinstalar"/>   
         
     <item
-        android:id="@+id/camara"
+        android:id="@+id/mostrarMapa"
         android:orderInCategory="100"
-        android:title="@string/strCamara"/> 
+        android:title="@string/strMapa"/>        
 
 </menu>

@@ -9,6 +9,175 @@ package com.controlobrahito;
 
 public final class R {
     public static final class attr {
+        /** 
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+    
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSize=0x7f010000;
+        /** 
+    A comma-separated list of the supported ad sizes. The sizes must be one of
+    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+    
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSizes=0x7f010001;
+        /**  The ad unit ID. 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adUnitId=0x7f010002;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraBearing=0x7f010004;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLat=0x7f010005;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLng=0x7f010006;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTilt=0x7f010007;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraZoom=0x7f010008;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int mapType=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiCompass=0x7f010009;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiRotateGestures=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiScrollGestures=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiTiltGestures=0x7f01000c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomControls=0x7f01000d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomGestures=0x7f01000e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useViewLifecycle=0x7f01000f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zOrderOnTop=0x7f010010;
+    }
+    public static final class color {
+        public static final int common_action_bar_splitter=0x7f040009;
+        /**  Sign-in Button Colors 
+         */
+        public static final int common_signin_btn_dark_text_default=0x7f040000;
+        public static final int common_signin_btn_dark_text_disabled=0x7f040002;
+        public static final int common_signin_btn_dark_text_focused=0x7f040003;
+        public static final int common_signin_btn_dark_text_pressed=0x7f040001;
+        public static final int common_signin_btn_default_background=0x7f040008;
+        public static final int common_signin_btn_light_text_default=0x7f040004;
+        public static final int common_signin_btn_light_text_disabled=0x7f040006;
+        public static final int common_signin_btn_light_text_focused=0x7f040007;
+        public static final int common_signin_btn_light_text_pressed=0x7f040005;
+        public static final int common_signin_btn_text_dark=0x7f04000a;
+        public static final int common_signin_btn_text_light=0x7f04000b;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -17,229 +186,421 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f080000;
+        public static final int activity_vertical_margin=0x7f080001;
     }
     public static final class drawable {
         public static final int camera1=0x7f020000;
         public static final int clima_y_personal_en_obra1=0x7f020001;
         public static final int clima_y_personal_en_obra2=0x7f020002;
-        public static final int concreto1=0x7f020003;
-        public static final int concreto2=0x7f020004;
-        public static final int grodco_logo=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int instalacion_de_tuberia1=0x7f020007;
-        public static final int instalacion_de_tuberia2=0x7f020008;
-        public static final int logo_grodco=0x7f020009;
-        public static final int maquinaria1=0x7f02000a;
-        public static final int maquinaria2=0x7f02000b;
-        public static final int movimiento_de_materiales1=0x7f02000c;
-        public static final int movimiento_de_materiales2=0x7f02000d;
-        public static final int rellenod_de_obras_de_arte1=0x7f02000e;
-        public static final int rellenod_de_obras_de_arte2=0x7f02000f;
+        public static final int common_signin_btn_icon_dark=0x7f020003;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f020004;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020005;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020006;
+        public static final int common_signin_btn_icon_disabled_light=0x7f020007;
+        public static final int common_signin_btn_icon_focus_dark=0x7f020008;
+        public static final int common_signin_btn_icon_focus_light=0x7f020009;
+        public static final int common_signin_btn_icon_light=0x7f02000a;
+        public static final int common_signin_btn_icon_normal_dark=0x7f02000b;
+        public static final int common_signin_btn_icon_normal_light=0x7f02000c;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f02000d;
+        public static final int common_signin_btn_icon_pressed_light=0x7f02000e;
+        public static final int common_signin_btn_text_dark=0x7f02000f;
+        public static final int common_signin_btn_text_disabled_dark=0x7f020010;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020011;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f020012;
+        public static final int common_signin_btn_text_disabled_light=0x7f020013;
+        public static final int common_signin_btn_text_focus_dark=0x7f020014;
+        public static final int common_signin_btn_text_focus_light=0x7f020015;
+        public static final int common_signin_btn_text_light=0x7f020016;
+        public static final int common_signin_btn_text_normal_dark=0x7f020017;
+        public static final int common_signin_btn_text_normal_light=0x7f020018;
+        public static final int common_signin_btn_text_pressed_dark=0x7f020019;
+        public static final int common_signin_btn_text_pressed_light=0x7f02001a;
+        public static final int concreto1=0x7f02001b;
+        public static final int concreto2=0x7f02001c;
+        public static final int efect_btn_clima_y_personal=0x7f02001d;
+        public static final int efect_btn_concreto=0x7f02001e;
+        public static final int efect_btn_intalacion_tuberias=0x7f02001f;
+        public static final int efect_btn_maquinaria=0x7f020020;
+        public static final int efect_btn_movimiento_materiales=0x7f020021;
+        public static final int efect_btn_relleno_obras_arte=0x7f020022;
+        public static final int grodco_logo=0x7f020023;
+        public static final int grodco_logo_peque=0x7f020024;
+        public static final int ic_launcher=0x7f020025;
+        public static final int ic_plusone_medium_off_client=0x7f020026;
+        public static final int ic_plusone_small_off_client=0x7f020027;
+        public static final int ic_plusone_standard_off_client=0x7f020028;
+        public static final int ic_plusone_tall_off_client=0x7f020029;
+        public static final int instalacion_de_tuberia1=0x7f02002a;
+        public static final int instalacion_de_tuberia2=0x7f02002b;
+        public static final int logo_grodco=0x7f02002c;
+        public static final int maquinaria1=0x7f02002d;
+        public static final int maquinaria2=0x7f02002e;
+        public static final int movimiento_de_materiales1=0x7f02002f;
+        public static final int movimiento_de_materiales2=0x7f020030;
+        public static final int rellenod_de_obras_de_arte1=0x7f020031;
+        public static final int rellenod_de_obras_de_arte2=0x7f020032;
     }
     public static final class id {
-        public static final int TextView01=0x7f080013;
-        public static final int TextView02=0x7f080015;
-        public static final int TextView03=0x7f080017;
-        public static final int TextView04=0x7f080011;
-        public static final int TextView05=0x7f08000f;
-        public static final int TextView06=0x7f08000d;
-        public static final int TextView07=0x7f08000b;
-        public static final int TextView08=0x7f080009;
-        public static final int TextView09=0x7f080007;
-        public static final int TextView10=0x7f080005;
-        public static final int TextView11=0x7f080019;
-        public static final int TextView12=0x7f080003;
-        public static final int TextView13=0x7f08001b;
-        public static final int TextView14=0x7f080001;
-        public static final int btnGuardar=0x7f08001d;
-        public static final int camara=0x7f080056;
-        public static final int edtAbscisa=0x7f080024;
-        public static final int edtAbscisaDescole=0x7f08002c;
-        public static final int edtAbscisaEncole=0x7f08002b;
-        public static final int edtAbscisaFinal=0x7f080040;
-        public static final int edtAbscisaInicial=0x7f08003f;
-        public static final int edtAbscisaTrabajoFinal=0x7f080036;
-        public static final int edtAbscisaTrabajoInicial=0x7f080035;
-        public static final int edtActividadRealizada=0x7f080037;
-        public static final int edtAlto=0x7f080049;
-        public static final int edtAncho=0x7f080041;
-        public static final int edtArea=0x7f080043;
-        public static final int edtCantidad=0x7f080034;
-        public static final int edtCantidadArena=0x7f080026;
-        public static final int edtCantidadCementoBultos=0x7f080025;
-        public static final int edtCantidadConcreto=0x7f080021;
-        public static final int edtCantidadTriturado=0x7f080027;
-        public static final int edtCantidadTuberia=0x7f08002a;
-        public static final int edtClimaAbscisaFinal=0x7f080016;
-        public static final int edtClimaAbscisaInicial=0x7f080014;
-        public static final int edtClimaElemento=0x7f080012;
-        public static final int edtClimaEstadoTerreno=0x7f080008;
-        public static final int edtClimaFrente=0x7f08000e;
-        public static final int edtClimaHito=0x7f080002;
-        public static final int edtClimaHoraFinal=0x7f08001a;
-        public static final int edtClimaHoraInicio=0x7f080018;
-        public static final int edtClimaNHorasLluvia=0x7f080006;
-        public static final int edtClimaNObraArte=0x7f080010;
-        public static final int edtClimaNPersona=0x7f08000c;
-        public static final int edtClimaSubcontratistas=0x7f08000a;
-        public static final int edtClimaTemperaturaPromedio=0x7f080004;
-        public static final int edtCodicoMaquina=0x7f080031;
-        public static final int edtCodigoMaquinaria=0x7f080039;
-        public static final int edtDescripcionMaquia=0x7f080029;
-        public static final int edtDestino=0x7f08003c;
-        public static final int edtElemento=0x7f080023;
-        public static final int edtEstadoTuberias=0x7f080030;
-        public static final int edtEstadodelMaterialAlFinalizar=0x7f080045;
-        public static final int edtHito=0x7f08001e;
-        public static final int edtLongitud=0x7f080048;
-        public static final int edtNCeldas=0x7f08002f;
-        public static final int edtNCilindroPrueba=0x7f080028;
-        public static final int edtNObraArte=0x7f080022;
-        public static final int edtNRecibo=0x7f080032;
-        public static final int edtNTomaDensidad=0x7f08004b;
-        public static final int edtNTuberias=0x7f08002d;
-        public static final int edtObservaciones=0x7f08001c;
-        public static final int edtOrigen=0x7f08003b;
-        public static final int edtPendientePorcet=0x7f08002e;
-        public static final int edtPlacas=0x7f08003a;
-        public static final int edtTemperaturaPromedio=0x7f08001f;
-        public static final int edtTipoConcreto=0x7f080020;
-        public static final int edtTipoMaquinaria=0x7f080038;
-        public static final int edtTipoMaterial=0x7f08003d;
-        public static final int edtTipoRelleno=0x7f080047;
-        public static final int edtUnidadMedida=0x7f080033;
-        public static final int edtVolumenAproximado=0x7f08004a;
-        public static final int edtVolumenE3Suelto=0x7f08003e;
-        public static final int imageView1=0x7f080053;
-        public static final int imageView7=0x7f08004c;
-        public static final int imgbtnClimayPersonalObra=0x7f080052;
-        public static final int imgbtnConcreto=0x7f08004f;
-        public static final int imgbtnInstalacionTuberia=0x7f08004e;
-        public static final int imgbtnMaquinaria=0x7f080050;
-        public static final int imgbtnMovimientoMateriales=0x7f08004d;
-        public static final int imgbtnRellenosObradeArte=0x7f080051;
-        public static final int menu_camara=0x7f080054;
-        public static final int reinstalarDataBase=0x7f080055;
-        public static final int scrollView1=0x7f080000;
-        public static final int textView1=0x7f080042;
-        public static final int textView2=0x7f080044;
-        public static final int textView3=0x7f080046;
+        public static final int TextView01=0x7f05001a;
+        public static final int TextView02=0x7f05001c;
+        public static final int TextView03=0x7f05001e;
+        public static final int TextView04=0x7f050018;
+        public static final int TextView05=0x7f050016;
+        public static final int TextView06=0x7f050014;
+        public static final int TextView07=0x7f050012;
+        public static final int TextView08=0x7f050010;
+        public static final int TextView09=0x7f05000e;
+        public static final int TextView10=0x7f05000c;
+        public static final int TextView11=0x7f050020;
+        public static final int TextView12=0x7f05000a;
+        public static final int TextView13=0x7f050022;
+        public static final int TextView14=0x7f050008;
+        public static final int action_settings=0x7f050068;
+        public static final int action_to_image=0x7f050069;
+        public static final int agregarUsuario=0x7f05006a;
+        public static final int btnAddUser=0x7f05005a;
+        public static final int btnGaleria=0x7f050024;
+        public static final int btnGuardar=0x7f050025;
+        public static final int btnLogin=0x7f05005e;
+        public static final int edtAbscisa=0x7f05002c;
+        public static final int edtAbscisaDescole=0x7f050034;
+        public static final int edtAbscisaEncole=0x7f050033;
+        public static final int edtAbscisaFinal=0x7f050048;
+        public static final int edtAbscisaInicial=0x7f050047;
+        public static final int edtAbscisaTrabajoFinal=0x7f05003e;
+        public static final int edtAbscisaTrabajoInicial=0x7f05003d;
+        public static final int edtActividadRealizada=0x7f05003f;
+        public static final int edtAlto=0x7f050052;
+        public static final int edtAncho=0x7f050049;
+        public static final int edtArea=0x7f05004b;
+        public static final int edtCantidad=0x7f05003c;
+        public static final int edtCantidadArena=0x7f05002e;
+        public static final int edtCantidadCementoBultos=0x7f05002d;
+        public static final int edtCantidadConcreto=0x7f050029;
+        public static final int edtCantidadTriturado=0x7f05002f;
+        public static final int edtCantidadTuberia=0x7f050032;
+        public static final int edtClimaAbscisaFinal=0x7f05001d;
+        public static final int edtClimaAbscisaInicial=0x7f05001b;
+        public static final int edtClimaElemento=0x7f050019;
+        public static final int edtClimaEstadoTerreno=0x7f05000f;
+        public static final int edtClimaFrente=0x7f050015;
+        public static final int edtClimaHito=0x7f050009;
+        public static final int edtClimaHoraFinal=0x7f050021;
+        public static final int edtClimaHoraInicio=0x7f05001f;
+        public static final int edtClimaNHorasLluvia=0x7f05000d;
+        public static final int edtClimaNObraArte=0x7f050017;
+        public static final int edtClimaNPersona=0x7f050013;
+        public static final int edtClimaSubcontratistas=0x7f050011;
+        public static final int edtClimaTemperaturaPromedio=0x7f05000b;
+        public static final int edtCodicoMaquina=0x7f050039;
+        public static final int edtCodigoMaquinaria=0x7f050041;
+        public static final int edtCuentaCedula=0x7f050057;
+        public static final int edtCuentaContrasena=0x7f050058;
+        public static final int edtCuentaNombre=0x7f050056;
+        public static final int edtCuentaPerfil=0x7f050059;
+        public static final int edtDescripcionMaquia=0x7f050031;
+        public static final int edtDestino=0x7f050044;
+        public static final int edtElemento=0x7f05002b;
+        public static final int edtEstadoTuberias=0x7f050038;
+        public static final int edtEstadodelMaterialAlFinalizar=0x7f05004d;
+        public static final int edtHito=0x7f050026;
+        public static final int edtLongitud=0x7f050051;
+        public static final int edtNCeldas=0x7f050037;
+        public static final int edtNCilindroPrueba=0x7f050030;
+        public static final int edtNObraArte=0x7f05002a;
+        public static final int edtNRecibo=0x7f05003a;
+        public static final int edtNTomaDensidad=0x7f050054;
+        public static final int edtNTuberias=0x7f050035;
+        public static final int edtObservaciones=0x7f050023;
+        public static final int edtOrigen=0x7f050043;
+        public static final int edtPass=0x7f05005d;
+        public static final int edtPendientePorcet=0x7f050036;
+        public static final int edtPlacas=0x7f050042;
+        public static final int edtSubcontratrista=0x7f05004f;
+        public static final int edtTemperaturaPromedio=0x7f050027;
+        public static final int edtTipoConcreto=0x7f050028;
+        public static final int edtTipoMaquinaria=0x7f050040;
+        public static final int edtTipoMaterial=0x7f050045;
+        public static final int edtTipoRelleno=0x7f050050;
+        public static final int edtUnidadMedida=0x7f05003b;
+        public static final int edtUser=0x7f05005c;
+        public static final int edtVolumenAproximado=0x7f050053;
+        public static final int edtVolumenE3Suelto=0x7f050046;
+        public static final int estadoServidor=0x7f05006d;
+        public static final int gallery1=0x7f05005b;
+        public static final int googleCharts=0x7f05006e;
+        public static final int hybrid=0x7f050004;
+        public static final int imageView1=0x7f050055;
+        public static final int imageView7=0x7f05005f;
+        public static final int imgbtnClimayPersonalObra=0x7f050065;
+        public static final int imgbtnConcreto=0x7f050062;
+        public static final int imgbtnInstalacionTuberia=0x7f050061;
+        public static final int imgbtnMaquinaria=0x7f050063;
+        public static final int imgbtnMovimientoMateriales=0x7f050060;
+        public static final int imgbtnRellenosObradeArte=0x7f050064;
+        public static final int mapINI=0x7f050066;
+        public static final int mensaje=0x7f05006c;
+        public static final int menu_camara=0x7f050067;
+        public static final int mostrarMapa=0x7f050070;
+        public static final int none=0x7f050000;
+        public static final int normal=0x7f050001;
+        public static final int reinstalarDataBase=0x7f05006f;
+        public static final int satellite=0x7f050002;
+        public static final int scrollView1=0x7f050007;
+        public static final int terrain=0x7f050003;
+        public static final int textView1=0x7f05004a;
+        public static final int textView2=0x7f05004c;
+        public static final int textView3=0x7f05004e;
+        public static final int traerUsuarios=0x7f05006b;
+        public static final int webView=0x7f050005;
+        public static final int webViewExample=0x7f050006;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f070000;
     }
     public static final class layout {
-        public static final int camara_layout=0x7f030000;
-        public static final int clas_clima_personal_obra=0x7f030001;
-        public static final int clas_concreto=0x7f030002;
-        public static final int clas_instalacion_de_tuberia=0x7f030003;
-        public static final int clas_maquinaria=0x7f030004;
-        public static final int clas_movimiento_materiales=0x7f030005;
-        public static final int clas_rellenos_obras_arte=0x7f030006;
-        public static final int main_principal=0x7f030007;
-        public static final int saludo_inicial=0x7f030008;
+        public static final int activity_google_image_graph=0x7f030000;
+        public static final int camara_layout=0x7f030001;
+        public static final int charts_google=0x7f030002;
+        public static final int clas_clima_personal_obra=0x7f030003;
+        public static final int clas_concreto=0x7f030004;
+        public static final int clas_instalacion_de_tuberia=0x7f030005;
+        public static final int clas_maquinaria=0x7f030006;
+        public static final int clas_movimiento_materiales=0x7f030007;
+        public static final int clas_rellenos_obras_arte=0x7f030008;
+        public static final int crear_cuenta_usuario=0x7f030009;
+        public static final int galeria_layout=0x7f03000a;
+        public static final int inicio_sesion_layout=0x7f03000b;
+        public static final int main_principal=0x7f03000c;
+        public static final int mapas_layout=0x7f03000d;
+        public static final int saludo_inicial=0x7f03000e;
     }
     public static final class menu {
-        public static final int clas_clima_ypersonal_en_obra=0x7f070000;
-        public static final int clas_concreto=0x7f070001;
-        public static final int clas_instalacion_de_tuberia=0x7f070002;
-        public static final int clas_maquinaria=0x7f070003;
-        public static final int clas_movimiento_materiales=0x7f070004;
-        public static final int clas_rellenos_obras_arte=0x7f070005;
-        public static final int estandar_con_camara=0x7f070006;
-        public static final int main_principal=0x7f070007;
+        public static final int clas_clima_ypersonal_en_obra=0x7f0a0000;
+        public static final int clas_concreto=0x7f0a0001;
+        public static final int clas_instalacion_de_tuberia=0x7f0a0002;
+        public static final int clas_maquinaria=0x7f0a0003;
+        public static final int clas_movimiento_materiales=0x7f0a0004;
+        public static final int clas_rellenos_obras_arte=0x7f0a0005;
+        public static final int class_mapas=0x7f0a0006;
+        public static final int crear_cuenta_usuario=0x7f0a0007;
+        public static final int estandar_con_camara=0x7f0a0008;
+        public static final int example_charts_google=0x7f0a0009;
+        public static final int google_image_graph=0x7f0a000a;
+        public static final int inicio_sesion=0x7f0a000b;
+        public static final int main_principal=0x7f0a000c;
+        public static final int menu_galeria=0x7f0a000d;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
-        public static final int strAbscisa=0x7f050030;
-        public static final int strAbscisaDescole=0x7f05001e;
-        public static final int strAbscisaEncole=0x7f05001d;
-        public static final int strAbscisaFinal=0x7f050012;
-        public static final int strAbscisaFinalClima=0x7f050048;
-        public static final int strAbscisaInicial=0x7f050011;
-        public static final int strAbscisaInicialClima=0x7f050047;
-        public static final int strAbscisaRelleno=0x7f050039;
-        public static final int strAbscisaTrabajoInicial=0x7f050029;
-        public static final int strAbscisadeTrabajoFinal=0x7f05002a;
-        public static final int strActividadRealizada=0x7f05002b;
-        public static final int strAlto=0x7f05003c;
-        public static final int strAncho=0x7f050013;
-        public static final int strAnchoRelleno=0x7f05003b;
-        public static final int strArea=0x7f050014;
-        public static final int strBtnGuardar=0x7f050017;
+        public static final int action_settings=0x7f06001b;
+        public static final int app_name=0x7f06001a;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        enabled for a application to work. [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_needs_enabling_title=0x7f060015;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        installed for a application to work. [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_needs_installation_title=0x7f060016;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        udpated for a application to work. [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_needs_update_title=0x7f060017;
+        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
+         */
+        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
+        /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
+         */
+        public static final int auth_client_requested_by_msg=0x7f060019;
+        /**   Title for notification shown when a bad version of GooglePlayServices
+        has been installed and needs correction for an application to work.
+        [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_using_bad_version_title=0x7f060014;
+        /**  Button in confirmation dialog to enable Google Play services.  Clicking it
+        will direct user to application settings of Google Play services where they
+        can enable it [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_enable_button=0x7f060006;
+        /**  Message in confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_enable_text=0x7f060005;
+        /**  Title of confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_enable_title=0x7f060004;
+        /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_install_button=0x7f060003;
+        /**  (For phones) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_install_text_phone=0x7f060001;
+        /**  (For tablets) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_install_text_tablet=0x7f060002;
+        /**  Title of confirmation dialog informing user that they need to install
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_install_title=0x7f060000;
+        /**  Message in confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_invalid_account_text=0x7f06000c;
+        /**  Title of confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_invalid_account_title=0x7f06000b;
+        /**  Message in confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_network_error_text=0x7f06000a;
+        /**  Title of confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_network_error_title=0x7f060009;
+        /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
+        services [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unknown_issue=0x7f06000d;
+        /**  Message in confirmation dialog informing user that date on the device is not correct,
+    causing certificate checks to fail. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unsupported_date_text=0x7f060010;
+        /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unsupported_text=0x7f06000f;
+        /**  Title of confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_unsupported_title=0x7f06000e;
+        /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_update_button=0x7f060011;
+        /**  Message in confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_update_text=0x7f060008;
+        /**  Title of confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_update_title=0x7f060007;
+        /**  Sign-in button text [CHAR LIMIT=15] 
+         */
+        public static final int common_signin_button_text=0x7f060012;
+        /**  Long form sign-in button text [CHAR LIMIT=30] 
+         */
+        public static final int common_signin_button_text_long=0x7f060013;
+        public static final int hello_world=0x7f06001c;
+        public static final int strAbscisa=0x7f06004a;
+        public static final int strAbscisaDescole=0x7f060038;
+        public static final int strAbscisaEncole=0x7f060037;
+        public static final int strAbscisaFinal=0x7f06002c;
+        public static final int strAbscisaFinalClima=0x7f060062;
+        public static final int strAbscisaInicial=0x7f06002b;
+        public static final int strAbscisaInicialClima=0x7f060061;
+        public static final int strAbscisaRelleno=0x7f060053;
+        public static final int strAbscisaTrabajoInicial=0x7f060043;
+        public static final int strAbscisadeTrabajoFinal=0x7f060044;
+        public static final int strActividadRealizada=0x7f060045;
+        public static final int strAlto=0x7f060056;
+        public static final int strAncho=0x7f06002d;
+        public static final int strAnchoRelleno=0x7f060055;
+        public static final int strArea=0x7f06002e;
+        public static final int strBtnGuardar=0x7f060031;
         /**  String de la camara 
          */
-        public static final int strCamara=0x7f05004c;
-        public static final int strCantidad=0x7f050028;
-        public static final int strCantidadArenaM3=0x7f050032;
-        public static final int strCantidadCementosBultos=0x7f050031;
-        public static final int strCantidadConcreto=0x7f05002d;
-        public static final int strCantidadTrituradoM3=0x7f050033;
-        public static final int strCantidadTuberia=0x7f05001c;
-        public static final int strCodigoMaquina=0x7f050025;
+        public static final int strCamara=0x7f060066;
+        public static final int strCantidad=0x7f060042;
+        public static final int strCantidadArenaM3=0x7f06004c;
+        public static final int strCantidadCementosBultos=0x7f06004b;
+        public static final int strCantidadConcreto=0x7f060047;
+        public static final int strCantidadTrituradoM3=0x7f06004d;
+        public static final int strCantidadTuberia=0x7f060036;
+        public static final int strCodigoMaquina=0x7f06003f;
         /**  String de la clase Movimiento de Materiales 
          */
-        public static final int strCodigoMaquinaria=0x7f05000a;
+        public static final int strCodigoMaquinaria=0x7f060024;
+        public static final int strCuentaBotonAgregar=0x7f060076;
+        public static final int strCuentaCedula=0x7f060072;
+        public static final int strCuentaNombre=0x7f060074;
+        public static final int strCuentaPass=0x7f060073;
+        public static final int strCuentaPerfil=0x7f060075;
         /**  String de la clase Maquinaria 
          */
-        public static final int strDescripcionMaquina=0x7f050024;
-        public static final int strDestino=0x7f05000e;
+        public static final int strDescripcionMaquina=0x7f06003e;
+        public static final int strDestino=0x7f060028;
         /**  String de la clase Instalacion de Tuberias 
          */
-        public static final int strDiametroTuberia=0x7f05001b;
-        public static final int strElemento=0x7f05002f;
-        public static final int strElementoClima=0x7f050046;
-        public static final int strEstadoTerreno=0x7f050041;
-        public static final int strEstadoTuberia=0x7f050023;
-        public static final int strEstadodeMaterialAlFinalizarJornada=0x7f050015;
-        public static final int strFrente=0x7f050044;
-        public static final int strHito=0x7f050018;
-        public static final int strHoraFinalLbores=0x7f05004a;
-        public static final int strHoraInicioLabores=0x7f050049;
-        public static final int strLongitud=0x7f05003a;
-        public static final int strNCeldas=0x7f050022;
-        public static final int strNCilindrosPrueba=0x7f050034;
-        public static final int strNHorasLLuvia=0x7f050040;
-        public static final int strNObraArte=0x7f050037;
-        public static final int strNObraArteClima=0x7f050045;
-        public static final int strNObradeArte=0x7f05001f;
-        public static final int strNObreArteConcreto=0x7f05002e;
-        public static final int strNPersonas=0x7f050043;
-        public static final int strNRecibo=0x7f050026;
-        public static final int strNTomaDensidad=0x7f05003e;
-        public static final int strNTuberia=0x7f050020;
-        public static final int strObsercaiones=0x7f050016;
-        public static final int strObservacionesClima=0x7f05004b;
-        public static final int strOrigen=0x7f05000d;
-        public static final int strPenditePorcent=0x7f050021;
-        public static final int strPlacas=0x7f05000b;
-        public static final int strRecibo=0x7f05000c;
-        public static final int strReinstalar=0x7f050009;
-        public static final int strSubcontratista=0x7f050019;
-        public static final int strSubcontratistaClimaPerso=0x7f050042;
-        public static final int strSubcontratistaRellenos=0x7f050038;
+        public static final int strDiametroTuberia=0x7f060035;
+        public static final int strElemento=0x7f060049;
+        public static final int strElementoClima=0x7f060060;
+        public static final int strEstadoTerreno=0x7f06005b;
+        public static final int strEstadoTuberia=0x7f06003d;
+        public static final int strEstadodeMaterialAlFinalizarJornada=0x7f06002f;
+        public static final int strFotos=0x7f060070;
+        public static final int strFrente=0x7f06005e;
+        /**  De la Galeria 
+         */
+        public static final int strGaleria=0x7f06006f;
+        public static final int strHito=0x7f060032;
+        public static final int strHoraFinalLbores=0x7f060064;
+        public static final int strHoraInicioLabores=0x7f060063;
+        public static final int strLogin=0x7f06006c;
+        public static final int strLongitud=0x7f060054;
+        public static final int strMapa=0x7f06006e;
+        public static final int strNCeldas=0x7f06003c;
+        public static final int strNCilindrosPrueba=0x7f06004e;
+        public static final int strNHorasLLuvia=0x7f06005a;
+        public static final int strNObraArte=0x7f060051;
+        public static final int strNObraArteClima=0x7f06005f;
+        public static final int strNObradeArte=0x7f060039;
+        public static final int strNObreArteConcreto=0x7f060048;
+        public static final int strNPersonas=0x7f06005d;
+        public static final int strNRecibo=0x7f060040;
+        public static final int strNTomaDensidad=0x7f060058;
+        public static final int strNTuberia=0x7f06003a;
+        public static final int strObsercaiones=0x7f060030;
+        public static final int strObservacionesClima=0x7f060065;
+        public static final int strOrigen=0x7f060027;
+        public static final int strPass=0x7f06006b;
+        public static final int strPenditePorcent=0x7f06003b;
+        public static final int strPlacas=0x7f060025;
+        public static final int strRecibo=0x7f060026;
+        public static final int strReinstalar=0x7f060023;
+        public static final int strSubcontratista=0x7f060033;
+        public static final int strSubcontratistaClimaPerso=0x7f06005c;
+        public static final int strSubcontratistaRellenos=0x7f060052;
         /**  String de la clase Clima y Personal 
          */
-        public static final int strTemperaturaPromedio=0x7f05003f;
-        public static final int strTextoIntro=0x7f05004d;
-        public static final int strTextoPresentacion=0x7f05004e;
-        public static final int strTipoConcreto=0x7f05002c;
-        public static final int strTipoMaterial=0x7f050036;
+        public static final int strTemperaturaPromedio=0x7f060059;
+        public static final int strTextoIntro=0x7f060067;
+        public static final int strTextoPresentacion=0x7f060068;
+        public static final int strTipoConcreto=0x7f060046;
+        public static final int strTipoMaterial=0x7f060050;
         /**  String de la clase Rellenos Obras 
          */
-        public static final int strTipoRelleno=0x7f050035;
-        public static final int strTipodeMAterial=0x7f05000f;
-        public static final int strTipodeMaquina=0x7f05001a;
-        public static final int strUnidadDeMedida=0x7f050027;
-        public static final int strVolumenAproximado=0x7f05003d;
-        public static final int strVolumenE3Suelto=0x7f050010;
-        public static final int title_activity_clas_clima_ypersonal_en_obra=0x7f050008;
-        public static final int title_activity_clas_concreto=0x7f050005;
-        public static final int title_activity_clas_instalacion_de_tuberia=0x7f050004;
-        public static final int title_activity_clas_maquinaria=0x7f050006;
-        public static final int title_activity_clas_movimiento_materiales=0x7f050003;
-        public static final int title_activity_clas_rellenos_obras_arte=0x7f050007;
+        public static final int strTipoRelleno=0x7f06004f;
+        public static final int strTipodeMAterial=0x7f060029;
+        public static final int strTipodeMaquina=0x7f060034;
+        public static final int strUnidadDeMedida=0x7f060041;
+        public static final int strUser=0x7f06006a;
+        public static final int strVolumenAproximado=0x7f060057;
+        public static final int strVolumenE3Suelto=0x7f06002a;
+        public static final int title_activity_clas_clima_ypersonal_en_obra=0x7f060022;
+        public static final int title_activity_clas_concreto=0x7f06001f;
+        public static final int title_activity_clas_instalacion_de_tuberia=0x7f06001e;
+        public static final int title_activity_clas_maquinaria=0x7f060020;
+        public static final int title_activity_clas_movimiento_materiales=0x7f06001d;
+        public static final int title_activity_clas_rellenos_obras_arte=0x7f060021;
+        /**  String de los Mapas 
+         */
+        public static final int title_activity_class_mapas=0x7f06006d;
+        public static final int title_activity_crear_cuenta_usuario=0x7f060071;
+        public static final int title_activity_example_charts_google=0x7f060077;
+        public static final int title_activity_google_image_graph=0x7f060078;
+        /**  String de Inicio de Sesion 
+         */
+        public static final int title_activity_inicio_sesion=0x7f060069;
     }
     public static final class style {
         /** 
@@ -252,14 +613,354 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f090000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
-        public static final int EditTextoNativos=0x7f060002;
-        public static final int FondoBlanco=0x7f060003;
-        public static final int FondoNegro=0x7f060004;
-        public static final int FondoNegroActionBar=0x7f060005;
+        public static final int AppTheme=0x7f090001;
+        public static final int EditTextoNativos=0x7f090002;
+        public static final int FondoBlanco=0x7f090003;
+        public static final int FondoNegro=0x7f090004;
+        public static final int FondoNegroActionBar=0x7f090005;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a AdsAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.controlobrahito:adSize}</code></td><td>
+    The size of the ad.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.controlobrahito:adSizes}</code></td><td>
+    A comma-separated list of the supported ad sizes.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.controlobrahito:adUnitId}</code></td><td> The ad unit ID.</td></tr>
+           </table>
+           @see #AdsAttrs_adSize
+           @see #AdsAttrs_adSizes
+           @see #AdsAttrs_adUnitId
+         */
+        public static final int[] AdsAttrs = {
+            0x7f010000, 0x7f010001, 0x7f010002
+        };
+        /**
+          <p>
+          @attr description
+          
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+    
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.controlobrahito:adSize
+        */
+        public static final int AdsAttrs_adSize = 0;
+        /**
+          <p>
+          @attr description
+          
+    A comma-separated list of the supported ad sizes. The sizes must be one of
+    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+    
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.controlobrahito:adSizes
+        */
+        public static final int AdsAttrs_adSizes = 1;
+        /**
+          <p>
+          @attr description
+           The ad unit ID. 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.controlobrahito:adUnitId
+        */
+        public static final int AdsAttrs_adUnitId = 2;
+        /** Attributes that can be used with a Gallery1.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Gallery1_android_galleryItemBackground android:galleryItemBackground}</code></td><td></td></tr>
+           </table>
+           @see #Gallery1_android_galleryItemBackground
+         */
+        public static final int[] Gallery1 = {
+            0x0101004c
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#galleryItemBackground}
+          attribute's value can be found in the {@link #Gallery1} array.
+          @attr name android:galleryItemBackground
+        */
+        public static final int Gallery1_android_galleryItemBackground = 0;
+        /** Attributes that can be used with a MapAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.controlobrahito:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.controlobrahito:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.controlobrahito:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.controlobrahito:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.controlobrahito:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.controlobrahito:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.controlobrahito:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.controlobrahito:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.controlobrahito:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.controlobrahito:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.controlobrahito:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.controlobrahito:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.controlobrahito:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.controlobrahito:zOrderOnTop}</code></td><td></td></tr>
+           </table>
+           @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraTargetLat
+           @see #MapAttrs_cameraTargetLng
+           @see #MapAttrs_cameraTilt
+           @see #MapAttrs_cameraZoom
+           @see #MapAttrs_mapType
+           @see #MapAttrs_uiCompass
+           @see #MapAttrs_uiRotateGestures
+           @see #MapAttrs_uiScrollGestures
+           @see #MapAttrs_uiTiltGestures
+           @see #MapAttrs_uiZoomControls
+           @see #MapAttrs_uiZoomGestures
+           @see #MapAttrs_useViewLifecycle
+           @see #MapAttrs_zOrderOnTop
+         */
+        public static final int[] MapAttrs = {
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+            0x7f01000f, 0x7f010010
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#cameraBearing}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:cameraBearing
+        */
+        public static final int MapAttrs_cameraBearing = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:cameraTargetLat
+        */
+        public static final int MapAttrs_cameraTargetLat = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#cameraTargetLng}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:cameraTargetLng
+        */
+        public static final int MapAttrs_cameraTargetLng = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#cameraTilt}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:cameraTilt
+        */
+        public static final int MapAttrs_cameraTilt = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#cameraZoom}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:cameraZoom
+        */
+        public static final int MapAttrs_cameraZoom = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#mapType}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.controlobrahito:mapType
+        */
+        public static final int MapAttrs_mapType = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#uiCompass}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:uiCompass
+        */
+        public static final int MapAttrs_uiCompass = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#uiRotateGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:uiRotateGestures
+        */
+        public static final int MapAttrs_uiRotateGestures = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#uiScrollGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:uiScrollGestures
+        */
+        public static final int MapAttrs_uiScrollGestures = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#uiTiltGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:uiTiltGestures
+        */
+        public static final int MapAttrs_uiTiltGestures = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#uiZoomControls}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:uiZoomControls
+        */
+        public static final int MapAttrs_uiZoomControls = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#uiZoomGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:uiZoomGestures
+        */
+        public static final int MapAttrs_uiZoomGestures = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#useViewLifecycle}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:useViewLifecycle
+        */
+        public static final int MapAttrs_useViewLifecycle = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.controlobrahito.R.attr#zOrderOnTop}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.controlobrahito:zOrderOnTop
+        */
+        public static final int MapAttrs_zOrderOnTop = 13;
+    };
 }

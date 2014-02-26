@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:layout_weight="0.5"
-                android:src="@drawable/movimiento_de_materiales1" />
+                android:src="@drawable/efect_btn_movimiento_materiales" />
 
             <ImageView
                 android:id="@+id/imgbtnInstalacionTuberia"
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:layout_weight="0.5"
-                android:src="@drawable/instalacion_de_tuberia1" />
+                android:src="@drawable/efect_btn_intalacion_tuberias" />
 
         </LinearLayout>
 
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:layout_weight="0.5"
-                android:src="@drawable/concreto1" />
+                android:src="@drawable/efect_btn_concreto" />
 
             <ImageView
                 android:id="@+id/imgbtnMaquinaria"
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:layout_weight="0.5"
-                android:src="@drawable/maquinaria1" />
+                android:src="@drawable/efect_btn_maquinaria" />
 
         </LinearLayout>
 
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:layout_weight="0.5"
-                android:src="@drawable/rellenod_de_obras_de_arte1" />
+                android:src="@drawable/efect_btn_relleno_obras_arte" />
 
             <ImageView
                 android:id="@+id/imgbtnClimayPersonalObra"
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:layout_weight="0.5"
-                android:src="@drawable/clima_y_personal_en_obra1" />
+                android:src="@drawable/efect_btn_clima_y_personal" />
 
         </LinearLayout>
 

@@ -304,13 +304,22 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left|right" >
+                android:gravity="center"
+                android:orientation="vertical" 
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:id="@+id/btnGaleria"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strFotos" />
 
                 <Button
                     android:id="@+id/btnGuardar"
-                    android:layout_width="wrap_content"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/strBtnGuardar" />
+                    android:text="@string/strBtnGuardar" 
+                    android:layout_marginTop="20dp"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

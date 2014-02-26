@@ -11,8 +11,7 @@
     <string name="title_activity_clas_rellenos_obras_arte">RELLENOS OBRAS DE ARTE</string>
     <string name="title_activity_clas_clima_ypersonal_en_obra">CLIMA Y PERSONAL EN OBRA</string>
     <string name="strReinstalar">Reinstalar Base de Datos</string>
-    
-    
+
     <!-- String de la clase Movimiento de Materiales -->
     <string name="strCodigoMaquinaria">Código de Maquinaria: </string>
     <string name="strPlacas">"Placas: "</string>
@@ -20,8 +19,8 @@
     <string name="strOrigen">"Origen: "</string>
     <string name="strDestino">"Destino: "</string>
     <string name="strTipodeMAterial">"Tipo de Material: "</string>
-    <string name="strVolumenE3Suelto">"Volumen E3 Suelto: "</string>
-    <string name="strAbscisaInicial">"Abscisa Inical: "</string>
+    <string name="strVolumenE3Suelto">"Volumen M3 Suelto: "</string>
+    <string name="strAbscisaInicial">"Abscisa Inicial: "</string>
     <string name="strAbscisaFinal">"Abscisa Final: "</string>
     <string name="strAncho">"Ancho: "</string>
     <string name="strArea">"Area: "</string>
@@ -31,8 +30,7 @@
     <string name="strHito">"Hito: "</string>
     <string name="strSubcontratista">"Subcontratista: "</string>
     <string name="strTipodeMaquina">"Tipo de Maquina: "</string>
-    
-    
+
     <!-- String de la clase Instalacion de Tuberias -->
     <string name="strDiametroTuberia">"Diametro de Tuberia Instalada: "</string>
     <string name="strCantidadTuberia">"Cantidad de Tuberia: "</string>
@@ -43,8 +41,7 @@
     <string name="strPenditePorcent">"Pendiente %: "</string>
     <string name="strNCeldas">"# de Celdas: "</string>
     <string name="strEstadoTuberia">"Estado de la Tuberia: "</string>
-    
-    
+
     <!-- String de la clase Maquinaria -->
     <string name="strDescripcionMaquina">"Descripción de Maquina: "</string>
     <string name="strCodigoMaquina">"Código de Maquina: "</string>
@@ -63,8 +60,7 @@
     <string name="strCantidadArenaM3">Cantidad de Arena M3</string>
     <string name="strCantidadTrituradoM3">"Cantidad de Triturado M3: "</string>
     <string name="strNCilindrosPrueba"># Cilindros Prueba</string>
-    
-    
+
     <!-- String de la clase Rellenos Obras -->
     <string name="strTipoRelleno">"Tipo de Relleno: "</string>
     <string name="strTipoMaterial">"Tipo de Material: "</string>
@@ -76,11 +72,10 @@
     <string name="strAlto">"Alto: "</string>
     <string name="strVolumenAproximado">"Volumen Aproximado: "</string>
     <string name="strNTomaDensidad">"# Toma de Densidad: "</string>
-    
-    
+
     <!-- String de la clase Clima y Personal -->
     <string name="strTemperaturaPromedio">"Temperatura Promedio: "</string>
-    <string name="strNHorasLLuvia">"# Horas de LLuvia en Jornada Laboral: "</string>
+    <string name="strNHorasLLuvia">"# Horas de Lluvia en Jornada Laboral: "</string>
     <string name="strEstadoTerreno">"Estado del Terreno: "</string>
     <string name="strSubcontratistaClimaPerso">"Subcontratista: "</string>
     <string name="strNPersonas">"# Personas: "</string>
@@ -92,11 +87,32 @@
     <string name="strHoraInicioLabores">"Hora Inicio de Labores: "</string>
     <string name="strHoraFinalLbores">"Hora Final de Labores: "</string>
     <string name="strObservacionesClima">"Observaciones: "</string>
-    
+
     <!-- String de la camara -->
     <string name="strCamara">"Camara"</string>
     <string name="strTextoIntro">"Este Producto es para uso de GRODCO SA y Asociados"</string>
     <string name="strTextoPresentacion">DIvisión de Investigación en Tecnología</string>
-    
+
+    <!-- String de Inicio de Sesion -->
+    <string name="title_activity_inicio_sesion">Inicio de Sesión</string>
+    <string name="strUser">Usuario:</string>
+    <string name="strPass">"Contraseña: "</string>
+    <string name="strLogin">Accesar</string>
+
+    <!-- String de los Mapas -->
+    <string name="title_activity_class_mapas">ClassMapas</string>
+    <string name="strMapa">Mapa</string>
+
+    <!-- De la Galeria -->
+    <string name="strGaleria">Galería</string>
+    <string name="strFotos">Registros Fotográficos</string>
+    <string name="title_activity_crear_cuenta_usuario">CrearCuentaUsuario</string>
+    <string name="strCuentaCedula">"Cédula: "</string>
+    <string name="strCuentaPass">"Contraseña: "</string>
+    <string name="strCuentaNombre">Nombre Completo:</string>
+    <string name="strCuentaPerfil">"Perfil: "</string>
+    <string name="strCuentaBotonAgregar">Agregar Usuario</string>
+    <string name="title_activity_example_charts_google">ExampleChartsGoogle</string>
+    <string name="title_activity_google_image_graph">GoogleImageGraphActivity</string>
 
 </resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <!-- Imagen cuando el foco esta sobre el boton -->
+    <item 
+        android:state_focused="true" 
+        android:state_pressed="false" 
+        android:drawable="@drawable/clima_y_personal_en_obra2" />
+
+    <!-- Imagen cuando se mantiene presionado el boton -->
+    <item android:state_focused="true" 
+        android:state_pressed="true" 
+        android:drawable="@drawable/clima_y_personal_en_obra2" />
+
+    <!-- Imagen que se muestra cuando se toca el boton -->
+    <item android:state_focused="false" 
+        android:state_pressed="true" 
+        android:drawable="@drawable/clima_y_personal_en_obra2" />
+
+    <!-- Imagen que se muestra en el boton permanente -->
+    <item android:drawable="@drawable/clima_y_personal_en_obra1" />   
+
+</selector>
